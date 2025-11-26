@@ -3,99 +3,114 @@
   <head>
     <title>Mc10 Online ordering</title>
     <meta charset="utf-8" />
+    <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
     <header>
-      <h1>Mc10 Online</h1>
+      <div class="header">
+        <h1>Welcome to Mc10 Online</h1>
+      </div>
     </header>
     <main>
-      <section>
-        <h2>Select Item</h2>
-        <p>Please select which burger your tummy would find yummy.</p>
-        <div style="display: inline-block">
-          <h3>Raggar "walle" med Gnissel dörr</h3>
-          <img
-            src="/img/raggar-walle.jpg"
-            alt="hot dog with ketchup and mustard"
-            style="width: 200px"
-          />
-          <ul>
-            <li>
-              Korv gjort på diverse djur, serveras i bröd med ketchup och
-              <strong>senap</strong>
-            </li>
-            <li>Innehåller <strong>gluten</strong></li>
-          </ul>
-        </div>
-        <div style="display: inline-block">
-          <h3>Nyburgare</h3>
-          <img
-            src="/img/nyburgare.webp"
-            alt="basic burger"
-            style="width: 200px"
-          />
-          <ul>
-            <li>
-              90g hamburgare med ketchup, isbergsallad, <strong>lök</strong>,
-              tomat, pickles och Mc10-dressing
-            </li>
-            <li>Innehåller <strong>gluten</strong></li>
-          </ul>
-        </div>
-        <div style="display: inline-block">
-          <h3>chilicon"cArn"</h3>
-          <img
-            src="/img/carn.jpg"
-            alt="burger with chili con carne"
-            style="width: 200px"
-          />
-          <ul>
-            <li>90g Burgare med Chili Con Carne</li>
-            <li>Innehåller <strong>gluten</strong> och <strong>lök</strong></li>
-          </ul>
-        </div>
-        <div style="display: inline-block">
-          <h3>NiP med dipp</h3>
-          <img
-            src="/img/nip.png"
-            alt="Triple smashed burger with cheese"
-            style="width: 200px"
-          />
-          <ul>
-            <li>
-              Saftig trippelstackad smashburgare med <strong>lök</strong>,
-              pickles, och 3xOst
-            </li>
-            <li>
-              Innehåller <strong>gluten</strong> och
-              <strong>EXTRA Laktos</strong>
-            </li>
-          </ul>
-        </div>
-        <div style="display: inline-block">
-          <h3>Mc "fisker"</h3>
-          <img
-            src="/img/fisker.webp"
-            alt="Fried fish burger"
-            style="width: 200px"
-          />
-          <ul>
-            <li>
-              Fiskburgare med hollandäs, pickles, riven isbergsallad, och ost
-            </li>
-            <li>
-              Innehåller <strong>laktos</strong> och <strong>gluten</strong>
-            </li>
-          </ul>
-        </div>
-      </section>
-      <section>
-        <h2>Customer Information</h2>
-        <p>
-          Please enter delivery information below so we can find you. And we
-          will feed you.
-        </p>
-        <form action="post">
+      <form action="post">
+        <section class="menu">
+          <h2>Select Item</h2>
+          <p>Please select which burger your tummy would find yummy.</p>
+          <div class="menu-list">
+            <div class="menu-item">
+              <h3>Raggar "walle" med Gnissel dörr</h3>
+              <img
+                src="/img/raggar-walle.jpg"
+                alt="hot dog with ketchup and mustard"
+                style="width: 200px"
+              />
+              <ul>
+                <li>
+                  Korv gjort på diverse djur, serveras i bröd med ketchup och
+                  senap
+                </li>
+                <li>
+                  Innehåller allergener:
+                  <span class="allergies">gluten, senap</span>.
+                </li>
+              </ul>
+            </div>
+            <div class="menu-item">
+              <h3>Nyburgare</h3>
+              <img
+                src="/img/nyburgare.webp"
+                alt="basic burger"
+                style="width: 200px"
+              />
+              <ul>
+                <li>
+                  90g hamburgare med ketchup, isbergsallad,
+                  <strong>lök</strong>, tomat, pickles och Mc10-dressing
+                </li>
+                <li>
+                  Innehåller allergener: <span class="allergies">gluten</span>
+                </li>
+              </ul>
+            </div>
+            <div class="menu-item">
+              <h3>chilicon"cArn"</h3>
+              <img
+                src="/img/carn.jpg"
+                alt="burger with chili con carne"
+                style="width: 200px"
+              />
+              <ul>
+                <li>90g Burgare med Chili Con Carne</li>
+                <li>
+                  Innehåller allergener:
+                  <span class="allergies">gluten, lök</span>
+                </li>
+              </ul>
+            </div>
+            <div class="menu-item">
+              <h3>NiP med dipp</h3>
+              <img
+                src="/img/nip.png"
+                alt="Triple smashed burger with cheese"
+                style="width: 200px"
+              />
+              <ul>
+                <li>
+                  Saftig trippelstackad smashburgare med <strong>lök</strong>,
+                  pickles, och 3xOst
+                </li>
+                <li>
+                  Innehåller allergener:
+                  <span class="allergies">gluten, EXTRA laktos, lök</span>
+                </li>
+              </ul>
+            </div>
+            <div class="menu-item">
+              <h3>Mc "fisker"</h3>
+              <img
+                src="/img/fisker.webp"
+                alt="Fried fish burger"
+                style="width: 200px"
+              />
+              <ul>
+                <li>
+                  Fiskburgare med hollandäs, pickles, riven isbergsallad, och
+                  ost
+                </li>
+                <li>
+                  Innehåller allergener:
+                  <span class="allergies">gluten, laktos</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="order-info">
+          <h2>Customer Information</h2>
+          <p>
+            Please enter delivery information below so we can find you. And we
+            will feed you.
+          </p>
           <h3>Delivery Information</h3>
           <p>
             <label for="fullname">Full Name</label>
@@ -142,31 +157,28 @@
           </p>
           <fieldset>
             <legend>Select Gender</legend>
-            <p>
-              <input type="radio" name="gender" id="male" />
-              <label for="male">Male</label>
-            </p>
-            <p>
-              <input type="radio" name="gender" id="female" />
-              <label for="female">Female</label>
-            </p>
-            <p>
-              <input type="radio" name="gender" id="nonbinary" />
-              <label for="nonbinary">Non-binary</label>
-            </p>
-            <p>
-              <input type="radio" name="gender" id="none" />
-              <label for="none">Do not wish to provide</label>
-            </p>
+
+            <input type="radio" name="gender" id="male" />
+            <label for="male">Male</label>
+
+            <input type="radio" name="gender" id="female" />
+            <label for="female">Female</label>
+
+            <input type="radio" name="gender" id="nonbinary" />
+            <label for="nonbinary">Non-binary</label>
+
+            <input type="radio" name="gender" id="none" />
+            <label for="none">Do not wish to provide</label>
           </fieldset>
-          <p>
-            <button type="submit">
-              <img src="/img/fragbag.png" alt="" />
-              <span>Place order</span>
-            </button>
-          </p>
-        </form>
-      </section>
+        </section>
+
+        <p>
+          <button type="submit">
+            <img src="/img/fragbag.png" alt="" />
+            <span>Place order</span>
+          </button>
+        </p>
+      </form>
     </main>
     <hr />
     <footer>
