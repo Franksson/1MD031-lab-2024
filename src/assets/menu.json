@@ -1,21 +1,21 @@
 [{
-    "name": "Veggie Bliss", 
-    "kCal": 500, 
-    "url": "https://images-bonnier.imgix.net/files/ifo/production/20220412084608/Kødfri-burger-1.jpg?auto=compress,format&w=1024%201024w",
-    "lactose": false, 
-    "gluten": false
+    "name": "Nyburgare", 
+    "kcal": 400, 
+    "imgURL": "/img/nyburgare.webp",
+    "hasLactose": false, 
+    "hasGluten": true
 },
 {
-    "name": "Veggie Bliss", 
-    "kCal": 500, 
-    "url": "https://images-bonnier.imgix.net/files/ifo/production/20220412084608/Kødfri-burger-1.jpg?auto=compress,format&w=1024%201024w",
-    "lactose": false, 
-    "gluten": false
+    "name": "NiP med dipp", 
+    "kcal": 800, 
+    "imgURL": "/img/nip.png",
+    "hasLactose": true, 
+    "hasGluten": true
 },
 {
-    "name": "Veggie Bliss", 
-    "kCal": 500, 
-    "url": "https://images-bonnier.imgix.net/files/ifo/production/20220412084608/Kødfri-burger-1.jpg?auto=compress,format&w=1024%201024w",
-    "lactose": false, 
-    "gluten": false
+    "name": "McFisker", 
+    "kcal": 600, 
+    "imgURL": "/img/fisker.webp",
+    "hasLactose": true, 
+    "hasGluten": true
 }]
