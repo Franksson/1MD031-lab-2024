@@ -1,21 +1,23 @@
-[{
-    "name": "Nyburgare", 
-    "kcal": 400, 
+[
+  {
+    "name": "Nyburgare",
+    "kcal": 400,
     "imgURL": "/img/nyburgare.webp",
-    "hasLactose": false, 
+    "hasLactose": false,
     "hasGluten": true
-},
-{
-    "name": "NiP med dipp", 
-    "kcal": 800, 
+  },
+  {
+    "name": "NiP med dipp",
+    "kcal": 800,
     "imgURL": "/img/nip.png",
-    "hasLactose": true, 
+    "hasLactose": true,
     "hasGluten": true
-},
-{
-    "name": "McFisker", 
-    "kcal": 600, 
+  },
+  {
+    "name": "McFisker",
+    "kcal": 600,
     "imgURL": "/img/fisker.webp",
-    "hasLactose": true, 
+    "hasLactose": true,
     "hasGluten": true
-}]
+  }
+]
